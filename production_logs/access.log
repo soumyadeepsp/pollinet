@@ -1,0 +1,36 @@
+::1 - - [05/Jul/2020:07:44:29 +0000] "GET / HTTP/1.1" 200 17725 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [05/Jul/2020:07:44:30 +0000] "GET /javaScript/homePage.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+::1 - - [05/Jul/2020:07:44:30 +0000] "GET /javaScript/homePage.js HTTP/1.1" 404 161 "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"
+[0mGET / [32m200[0m 36.137 ms - 17725[0m
+[0mGET /javaScript/homePage.js [33m404[0m 5.037 ms - 161[0m
+[0mGET /javaScript/homePage.js [33m404[0m 1.604 ms - 161[0m
+[0mPOST /users/list [32m200[0m 9.611 ms - 36774[0m
+[0mGET / [32m200[0m 30.701 ms - 17725[0m
+[0mGET /javaScript/homePage.js [33m404[0m 5.832 ms - 161[0m
+[0mGET /javaScript/homePage.js [33m404[0m 0.975 ms - 161[0m
+[0mPOST /users/list [32m200[0m 13.798 ms - 36700[0m
+[0mPOST /users/list [32m200[0m 9.705 ms - 36709[0m
+[0mGET / [32m200[0m 51.092 ms - 17725[0m
+[0mGET /IMG_20190131_125926.jpg [33m404[0m 4.348 ms - 162[0m
+[0mGET /javaScript/homePage.js [33m404[0m 0.672 ms - 161[0m
+[0mGET /IMG_20190131_125926.jpg [33m404[0m 0.329 ms - 162[0m
+[0mGET /javaScript/homePage.js [33m404[0m 0.454 ms - 161[0m
+[0mPOST /users/list [32m200[0m 9.819 ms - 36773[0m
+[0mGET /images/Dahlia_pink_bees_goldensweatbeeunkwon_bW_20190125_132532.jpg [33m404[0m 2.025 ms - 206[0m
+[0mGET /images/Dahlia_pink_bees_goldensweatbeeunkwon_bW_20190125_132537.jpg [33m404[0m 0.294 ms - 206[0m
+[0mGET /images/Dahlia_pink_bees_goldensweatbeeunkwon_bW_20190125_132539.jpg [33m404[0m 0.654 ms - 206[0m
+[0mGET /images/Dahlia_pink_bees_goldensweatbeeunkwon_bW_20190125_132542.jpg [33m404[0m 0.291 ms - 206[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190130_125643.jpg [33m404[0m 2.899 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125524.jpg [33m404[0m 0.825 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125522.jpg [33m404[0m 0.360 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125549.jpg [33m404[0m 0.416 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125554.jpg [33m404[0m 0.600 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125609.jpg [33m404[0m 1.118 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125602.jpg [33m404[0m 4.018 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apisflorea_blackwhiteandred_20190130_125643.jpg [33m404[0m 0.332 ms - 212[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125624.jpg [33m404[0m 0.293 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apisflorea_blackwhiteandred_20190130_125749.jpg [33m404[0m 0.264 ms - 212[0m
+[0mGET /images/Dahlia_yellow_bees_apiscerana_blackandyellow_20190131_125622.jpg [33m404[0m 0.560 ms - 210[0m
+[0mGET /images/Dahlia_yellow_bees_apisflorea_blackwhiteandred_20190130_125751.jpg [33m404[0m 0.336 ms - 212[0m
+[0mGET /images/Dahlia_yellow_bees_apisflorea_blackwhiteandred_20190131_125429.jpg [33m404[0m 0.381 ms - 212[0m
+[0mGET /images/Dahlia_yellow_bees_apisflorea_blackwhiteandred_20190131_125500.jpg [33m404[0m 0.218 ms - 212[0m

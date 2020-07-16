@@ -1,0 +1,79 @@
+h1{
+    font-size: 5rem;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  footer{
+    text-align: center;
+  
+    margin: 100px 0;
+  }
+  nav{
+    background-color: #4e5603;
+  }
+  .container-fluid{
+    padding-left : 0 ;
+    padding-right: 0 ;
+  }
+   .navbar{
+     padding-top: 1%;
+     padding-bottom: 1%;
+  
+   }
+  
+   .nav-item{
+     padding-top: 5px;
+   }
+  
+   .user-logo{
+     margin-left: 15px;
+     padding-top: 0;
+   }
+  
+  /* .search-bar{
+    padding: 50px 0 200px;
+  
+  } */
+  
+  .about{
+    padding: 0 10% ;
+    margin-bottom: 150px;
+  
+  }
+  .search{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #abaf1c;
+    color: white;
+  }
+  .sh{
+      margin-left: 0;
+  }
+  
+  .search-head{
+    padding-bottom: 2%;
+    padding-right: 1%;
+  }
+  .col-form-label{
+    font-size: 1.5rem;
+  }
+  .drop-down{
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+  .custom-select{
+    padding: 0 5%;
+  }
+  .date-input{
+    height: calc(2.25rem + 2px);
+    padding: 0 5%;
+  }
+  
+  .card{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }  
+  .card-img-top{
+    
+  }

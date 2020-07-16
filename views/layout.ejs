@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title> <%= title %> </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/css/layout.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <!-- <link rel="stylesheet" href="css/styles.css"> -->
+
+   <!-- Font Awesome -->
+   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+        <%- style %>
+    </head>
+    <body>
+        <%- include('_header'); %>
+        <!-- <% if (flash.success && flash.success.length>0) { %>
+            <h5> <%=flash.success%> </h5>
+        <% } %> -->
+        <%- body %>
+        <!-- <%- include('_footer'); %> -->
+        <script type="text/javascript" src="/js/layout.js"></script>
+        <%- script %>
+        <script>
+            <% if (flash.success && flash.success.length>0) { %>
+                new Noty({
+                    theme : 'relax',
+                    text : '<%=flash.success%>',
+                    type : 'success',
+                    layout : 'topRight',
+                    timeout : 1500
+                }).show();
+            <% } %>
+            <% if (flash.error && flash.error.length>0) { %>
+                new Noty({
+                    theme : 'relax',
+                    text : '<%=flash.error%>',
+                    type : 'error',
+                    layout : 'topRight',
+                    timeout : 1500
+                }).show();
+            <% } %>
+        </script>
+    </body>
+</html>

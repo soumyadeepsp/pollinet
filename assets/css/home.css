@@ -1,0 +1,115 @@
+h1{
+    font-size: 5rem;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  footer{
+    text-align: center;
+  
+    margin: 100px 0;
+  }
+  nav{
+    background-color: #4e5603;
+  }
+  .img-fluid{
+    border-radius: 50%;
+  }
+  
+  .title-section{
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+  .tagline{
+    font-size: 1.5rem;
+  }
+  
+  .image-line{
+    padding: 0.5% 3% ;
+  }
+  
+  .heading-text{
+    padding: 0 1%;
+  }
+  
+  .container-fluid{
+    padding-left : 0 ;
+    padding-right: 0 ;
+  }
+   .navbar{
+     padding-top: 1%;
+     padding-bottom: 1%;
+  
+   }
+  
+   .nav-item{
+     padding-top: 5px;
+   }
+  
+   .user-logo{
+     margin-left: 15px;
+     padding-top: 0;
+   }
+  
+  /* .search-bar{
+    padding: 50px 0 200px;
+  
+  } */
+  
+  .about{
+    padding: 0 10% ;
+    margin-bottom: 150px;
+  
+  }
+  .search{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #abaf1c;
+    color: white;
+  }
+  
+  .search-head{
+    padding-bottom: 2%;
+    padding-right: 1%;
+  }
+  .col-form-label{
+    font-size: 1.5rem;
+  }
+  .drop-down{
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+  .custom-select{
+    padding: 0 5%;
+  }
+  .date-input{
+    height: calc(2.25rem + 2px);
+    padding: 0 5%;
+  }
+  .content{
+  
+    padding-right: 5%;
+  }
+  
+  .carousel{
+    height: 600px;
+    width: auto;
+    background-color: #b95e3f;
+  
+  }
+  
+  .carousel-item{
+    padding: 7% 15%;
+    text-align: center;
+    font-size: 2rem ;
+    color: white;
+  }
+  footer p{
+    color: #8f8f8f;
+  }
+  #map {
+    height: inherit;;  /* The height is 400 pixels */
+    width: inherit;  /* The width is the width of the web page */
+  
+   }
+  

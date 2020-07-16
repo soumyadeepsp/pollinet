@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="/css/forms.css">
+
+<section>
+    <div class="container-fluid row">
+      <div>
+        <form method="POST" action="/users/submit_photo/" enctype="multipart/form-data">
+          <div class="form-group ">
+            <label >Place</label>
+            <input class="form-control form-control-lg" type="text" name="place">
+            <small id="emailHelp" class="form-text text-muted">Enter the name of the city where you took the image</small>
+          </div>
+          <div class="form-group">
+            <label >Date</label>
+            <input class="form-control form-control-lg" type="text" name="date">
+            <small id="emailHelp" class="form-text text-muted">Enter the date when you took the image as DDMMYYYY</small>
+          </div>
+          <div class="custom-file form-group">
+            <input type="file" class="custom-file-input form-control-lg" id="customFile" name="uploads">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+            <small id="emailHelp" class="form-text text-muted">Choose the image file that you want to upload</small>
+          </div>
+          <button type="submit" class="btn btn-lg btn-primary row">Submit</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <img id="blah" class="col-7 img-fluid" src="#" alt=" you have not uploaded any image yet"/>
+      </div>
+    </div>
+  </section>
+  <!-- <a href="/users/profile"><button type="submit">Go to home page</button></a> -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://custcustomFilecustomFilecustomFileomFile//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+  <script src="/js/forms.js" charset="utf-8"> </script>

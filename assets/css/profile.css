@@ -1,0 +1,113 @@
+nav{
+    background-color: #4e5603;
+  }
+  hr{
+    border: 0.1px solid;
+    margin-bottom: 80px;
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  footer{
+    text-align: center;
+  
+    margin: 50px 0;
+  }
+  .container-fluid{
+    padding: 0;
+  }
+  .nav-item{
+    padding-top: 5px;
+  }
+  
+  .user-logo{
+    margin-left: 15px;
+    padding-top: 0;
+  }
+  .jumbotron{
+    padding-left: 5%;
+    background-color: #abaf1c;
+    color: white;
+  }
+  .btn{
+    margin-left: 90%;
+  }
+  
+  .heading{
+    font-weight: 600;
+  }
+  .col{
+    margin-right: 15px;
+  }
+  .cards{
+    padding: 2% 5%;
+  }
+  .card{
+    margin: 0 50px 50px 0;
+  }
+  footer p{
+    color: #8f8f8f;
+  }
+  
+  .modalDialog {
+     position: fixed;
+     font-family: Arial, Helvetica, sans-serif;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background: rgba(0, 0, 0, 0.8);
+     z-index: 9999;
+     overflow-y: scroll;
+     overflow: scroll;
+     display: none;
+  }
+  .modalDialog:target {
+     display: block;
+  }
+  .modalDialog > div {
+      width: 400px;
+      position: relative;
+      margin: 10% auto;
+      padding: 5px 20px 13px 20px;
+      border-radius: 10px;
+      background: #fff;
+  }
+  .close {
+      background: #606061;
+      color: #FFFFFF;
+      line-height: 25px;
+      position: absolute;
+      right: -12px;
+      text-align: center;
+      top: -10px;
+      width: 24px;
+      text-decoration: none;
+      font-weight: bold;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      border-radius: 12px;
+      -moz-box-shadow: 1px 1px 3px #000;
+      -webkit-box-shadow: 1px 1px 3px #000;
+      box-shadow: 1px 1px 3px #000;
+  }
+  .close:hover {
+      background: #00d9ff;
+  }
+  .noscroll {
+    overflow: hidden;
+  }
+  
+  /* button{
+    margin-top: 45px;
+  }
+  .container-fluid{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 150px;
+  }
+  .custom-file{
+    margin-top: 30px;
+  } */
+  

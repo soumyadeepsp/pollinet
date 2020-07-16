@@ -1,0 +1,26 @@
+<link rel="stylesheet" type="text/css" href="/css/edit.css">
+<p id="yy" style="display:none"> <%=JSON.stringify(user)%> </p>
+<section>
+    <div class="container-fluid row">
+        <form method="POST" action="/users/update/<%=user.id%>">
+          <div class="form-group ">
+            <label >Enter Username</label>
+            <input class="form-control form-control-lg" type="text" placeholder="<%=user.name%>" name="name">
+            <small id="emailHelp" class="form-text text-muted">This username will be your new username for this account</small>
+          </div>
+          <div class="form-group">
+            <label >Enter email</label>
+            <input class="form-control form-control-lg" type="text" placeholder="<%=user.email%>" name="email">
+            <small id="emailHelp" class="form-text text-muted">This email will be your new email for this account</small>
+          </div>
+
+          <button type="submit" class="btn btn-lg btn-primary row">Update</button>
+        </form>
+
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/edit.js"></script>

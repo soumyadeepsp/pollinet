@@ -1,0 +1,332 @@
+<link rel="stylesheet" type="text/css" href="/css/home.css">
+<!-- <h1> Home Page </h1> -->
+<section class="title-section" id="">
+    <div class="container-fluid">
+      <div class="row image-line">
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid " alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+
+      </div>
+      <div class="row image-line" style="margin-top: 35px;">
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <!-- <div class="col">
+          <img src="images/Portulaca_white_bees_greenishgreysweatbee_BW_20190426_080752.jpg" class="img-fluid" alt="bee-1">
+        </div> -->
+        <div class="col-3 heading-text img-fluid height-auto">
+          <h1>Insectify</h1>
+          <p class="tagline text-muted">Your online beehive!</p>
+        </div>
+
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+
+      </div>
+      <div class="row image-line">
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+        <div class="col">
+          <img src="IMG_20190131_125926.jpg" class="img-fluid" alt="bee-1">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="Navigation sticky-top">
+    <div class="container-fluid ">
+
+      <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Insectify</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/users/signin">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/users/signup">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/users/signout">Sign Out</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/users/profile">Profile</a>
+            </li>
+            <li class="nav-item dropdown active user-logo">
+              <span class="nav-link" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user fa-2x"></i>
+              </span>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+
+  </section>
+  <section class="search about bootstrap-iso">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class=" col search-menu">
+          <div class="row">
+            <h3 class="search-head">Search</h3>
+            <i class="fas fa-search fa-3x"></i>
+          </div>
+
+          <form id="myForm" method="POST" action="/users/list">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Insect</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect1" name="insect">
+                  <option selected>Open this select menu</option>
+                  <option value="bees">Bees</option>
+
+                </select>
+              </div>
+              <label class="col-2 col-form-label">Scientific Name</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect2" name="scientific_name">
+                  <option selected>Open this select menu</option>
+                  <option value="apiscerana">Apis Cerana</option>
+                  <option value="apisdorsata">Apis Dorsata</option>
+                  <option value="apisflorea">Apis Florea</option>
+                  <option value="bwceratina">B&W Ceratina</option>
+                  <option value="greenceratina">Green Ceratina</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Insect Color</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect3" name="insect_color">
+                  <option selected>Open this select menu</option>
+                  <option value="blackandyellow">black and yellow</option>
+                  <option value="BW">black and white</option>
+                  <option value="blackwhiteandred">black white and red</option>
+                  <option value="green">green</option>
+                  <option value="Blackandorange">Black and Orange</option>
+
+                </select>
+              </div>
+              <label class="col-2 col-form-label">Flower</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect4" name="flower">
+                  <option selected>Open this select menu</option>
+                  <option value="Dahlia">Dahlia</option>
+                  <option value="Portulacagrandiflora">Portulaca Grandiflora</option>
+                  <option value="Portulaca">Portulaca</option>
+
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Flower color</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect5" name="flower_color">
+                  <option selected>Open this select menu</option>
+                  <option value="peach">peach</option>
+                  <option value="pink">pink</option>
+                  <option value="white">white</option>
+                  <option value="yellow">yellow</option>
+
+                </select>
+              </div>
+              <label class="col-2 col-form-label">Parameter</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect6" name="parameter">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Start date</label>
+              <div class="col-4 drop-down">
+                <!-- <form method="post" class="form2"> -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-calendar fa"></i>
+                      </div>
+                    </div>
+                    <!-- Date input -->
+                    <input class="form-control date-input" id="date2" name="date2" placeholder="MM/DD/YYYY" type="text" />
+                  </div>
+
+                <!-- </form> -->
+              </div>
+              <label class="col-2 col-form-label">End date</label>
+              <div class="col-4 drop-down ">
+
+                <!-- <form method="post" class="form1"> -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-calendar fa"></i>
+                      </div>
+                    </div>
+                    <!-- Date input -->
+                    <input class="form-control date-input" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                  </div>
+
+                <!-- </form> -->
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" id="submitBtn" class="btn btn-outline-light btn-lg">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-8 content">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sollicitudin ac orci phasellus egestas. Cursus vitae congue mauris rhoncus aenean vel. Dictumst vestibulum
+            rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Sit amet aliquam id diam maecenas ultricies. Lectus magna fringilla urna porttitor rhoncus dolor. Scelerisque viverra mauris in aliquam sem fringilla. Tincidunt ornare
+            massa eget egestas purus viverra accumsan. Ultricies tristique nulla aliquet enim tortor at auctor urna nunc. Id nibh tortor id aliquet. Sagittis vitae et leo duis ut diam quam nulla porttitor. Eleifend donec pretium vulputate sapien nec
+            sagittis. Rutrum quisque non tellus orci ac auctor. Libero id faucibus nisl tincidunt eget nullam non nisi. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Et leo duis ut diam. Vel orci porta non pulvinar neque laoreet
+            suspendisse interdum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Elementum tempus egestas sed sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Sollicitudin ac orci phasellus egestas. Cursus vitae congue mauris rhoncus aenean vel. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Sit amet aliquam id diam maecenas ultricies. Lectus
+            magna fringilla urna porttitor rhoncus dolor. Scelerisque viverra mauris in aliquam sem fringilla. Tincidunt ornare massa eget egestas purus viverra accumsan. Ultricies tristique nulla aliquet enim tortor at auctor urna nunc. Id nibh
+            tortor id aliquet. Sagittis vitae et leo duis ut diam quam nulla porttitor. Eleifend donec pretium vulputate sapien nec sagittis. Rutrum quisque non tellus orci ac auctor. Libero id faucibus nisl tincidunt eget nullam non nisi. Congue
+            nisi vitae suscipit tellus mauris a diam maecenas sed. Et leo duis ut diam. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Elementum tempus egestas sed sed.
+          </p>
+
+        </div>
+        <div class="col-4" id="map">
+        </div>
+      </div>
+  </section>
+
+  <section class="carousel">
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Tellus at urna condimentum mattis pellentesque id nibh tortor. Sagittis vitae et leo duis.
+            </p>
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          </div>
+          <div class="carousel-item">
+
+            <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Tellus at urna condimentum mattis pellentesque id nibh tortor. Sagittis vitae et leo duis.
+            </p>
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          </div>
+          <div class="carousel-item">
+
+            <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Tellus at urna condimentum mattis pellentesque id nibh tortor. Sagittis vitae et leo duis.
+            </p>
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="fas fa-envelope fa-2x"></i>
+      <p>© Copyright Lorem ipsum</p>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- <script src="javaScript/homePage.js" charset="utf-8"> </script> -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB4y1wE_Km8sjLNouehCmNiKnV9exyC7Q&callback=initMap"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="/js/home.js"></script>

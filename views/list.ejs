@@ -1,0 +1,193 @@
+<link rel="stylesheet" type="text/css" href="/css/list.css">
+
+<p id="yy1" style="display: none;"><%= form.insect %></p>
+<p id="yy2" style="display: none;"><%= form.scientific_name %></p>
+<p id="yy3" style="display: none;"><%= form.insect_color %></p>
+<p id="yy4" style="display: none;"><%= form.flower %></p>
+<p id="yy5" style="display: none;"><%= form.flower_color %></p>
+<p id="yy6" style="display: none;"><%= form.parameter %></p>
+<p id="yy7" style="display: none;"><%= form.date2 %></p>
+<p id="yy8" style="display: none;"><%= form.date %></p>
+<p id="yy9" style="display: none;"><%= image_list %></p>
+<section class="Navigation sticky-top">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Insectify</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="/users/signin">Sign In</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/users/signup">Sign Up</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/users/signout">Sign Out</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/users/profile">Profile</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+             <li class="nav-item dropdown active user-logo">
+               <span class="nav-link" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                 <i class="fas fa-user fa-2x"></i>
+               </span>
+             </li>
+           </ul>
+
+         </div>
+      </nav>
+    </div>
+
+  </section>
+  <section class="search about bootstrap-iso">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class=" col search-menu">
+          <div class="row sh">
+            <h3 class="search-head">Search</h3>
+            <i class="fas fa-search fa-3x"></i>
+          </div>
+
+          <form id="myForm" method="POST" action="/users/list">
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Insect</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect1" name="insect">
+                  <option selected>Open this select menu</option>
+                  <option value="bees">Bees</option>
+
+                </select>
+              </div>
+              <label class="col-2 col-form-label">Scientific Name</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect2" name="scientific_name">
+                  <option selected>Open this select menu</option>
+                  <option value="apiscerana">apis cerana</option>
+                  <option value="apisdorsata">apis dorsata</option>
+                  <option value="apisflorea">apis florea</option>
+                  <option value="bwceratina">bw ceratina</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Insect Color</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect3" name="insect_color">
+                  <option selected>Open this select menu</option>
+                  <option value="blackandyellow">black and yellow</option>
+                  <option value="blackandwhite">black and white</option>
+                  <option value="blackwhiteandred">black white and red</option>
+
+                </select>
+              </div>
+              <label class="col-2 col-form-label">Flower</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect4" name="flower">
+                  <option selected>Open this select menu</option>
+                  <option value="dahlia">Dahlia</option>
+                  <option value="portulacagrandiflora">Portulaca Grandiflora</option>
+                  <option value="portulaca">Portulaca</option>
+
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Flower color</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect5" name="flower_color">
+                  <option selected>Open this select menu</option>
+                  <option value="peach">peach</option>
+                  <option value="pink">pink</option>
+                  <option value="white">white</option>
+                  <option value="yellow">yellow</option>
+
+                </select>
+              </div>
+              <label class="col-2 col-form-label">Parameter</label>
+              <div class="col-4 drop-down">
+                <select class="custom-select" id="myselect6" name="parameter">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label class="col-2 col-form-label">Start date</label>
+              <div class="col-4 drop-down">
+                <!-- <form method="post" class="form2"> -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-calendar fa"></i>
+                      </div>
+                    </div>
+                    <!-- Date input -->
+                    <input class="form-control date-input" id="date2" name="date2" placeholder="MM/DD/YYYY" type="text" />
+                  </div>
+
+                <!-- </form> -->
+              </div>
+              <label class="col-2 col-form-label">End date</label>
+              <div class="col-4 drop-down ">
+
+                <!-- <form method="post" class="form1"> -->
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <i class="fa fa-calendar fa"></i>
+                      </div>
+                    </div>
+                    <!-- Date input -->
+                    <input class="form-control date-input" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                  </div>
+
+                <!-- </form> -->
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" id="submitBtn" class="btn btn-outline-light btn-lg">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section>
+  <div class="container-fluid about">
+    <h1> Insectify yourself </h1>
+    <p class="hero__p"> Here's what you ordered !!! </p>
+    <div class="cards" id="card-list">
+      
+    </div>
+  </div>
+</section>
+
+<footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="fas fa-envelope fa-2x"></i>
+      <p>© Copyright Lorem ipsum</p>
+    </div>
+  </footer>
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="/js/list.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
